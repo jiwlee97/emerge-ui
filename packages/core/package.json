@@ -1,0 +1,32 @@
+{
+  "name": "@emerge-ui/core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "emerge",
+    "ui"
+  ],
+  "author": "jiwon",
+  "license": "MIT",
+  "packageManager": "pnpm@10.22.0"
+}
