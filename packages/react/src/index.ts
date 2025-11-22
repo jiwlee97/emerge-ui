@@ -28,4 +28,4 @@ export {
   useEmergeContext,
   useOptionalEmergeContext,
   type EmergeProviderProps,
-} from './context/EmergeContext';
+} from './contexts/EmergeContext';
